@@ -126,6 +126,12 @@
         }
       }
 
+      @media (max-width: 991.98px) {
+        .offcanvas-body .btn {
+          font-size: 16px;
+        }
+      }
+
       body {
         font-family: "Segoe UI", sans-serif;
         margin: 0;
@@ -275,7 +281,7 @@
 
           <!-- Center Logo -->
           <a href="#" class="navbar-brand mx-auto bg-white">
-            <img src="image/Benzify.png" alt="Logo" height="60">
+            <img src="image/Benzify.png" alt="Logo" height="60" />
           </a>
 
           <!-- Right nav -->
@@ -322,12 +328,18 @@
         ></button>
       </div>
       <div class="offcanvas-body">
-        <ul class="nav flex-column">
-          <li><a class="nav-link text-white" href="index">Home</a></li>
-          <!-- <li><a class="nav-link text-white" href="#">Services</a></li>
-      <li><a class="nav-link text-white" href="#">Blogs</a></li> -->
+        <ul class="nav flex-column text-center">
+          <li class="mb-2">
+            <a
+              class="btn btn-outline-light rounded-pill px-4 py-2 mx-auto d-inline-block"
+              href="index.html"
+              >Home</a
+            >
+          </li>
           <li>
-            <a class="btn btn-outline-light mt-3 rounded-pill" href="#form"
+            <a
+              class="btn btn-outline-light rounded-pill px-4 py-2 mx-auto d-inline-block"
+              href="#form"
               >Contact Us</a
             >
           </li>
@@ -339,7 +351,7 @@
     <section
       class="hero"
       style="
-       background-image: url('image/Landimage.jpg');
+        background-image: url('image/Landimage.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
